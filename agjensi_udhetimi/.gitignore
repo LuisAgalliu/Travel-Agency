@@ -1,0 +1,56 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+
+# NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# ASP.NET temporary files
+Temporary ASP.NET Files/
+
+# Logs
+*.log
+logs/
+
+# Sensitive configuration files - do not upload real passwords/API keys/database connections
+Web.config
+agjensi_udhetimi/Web.config
+Web.Debug.config
+Web.Release.config
+agjensi_udhetimi/Web.Debug.config
+agjensi_udhetimi/Web.Release.config
+
+# Database files
+*.mdf
+*.ldf
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/

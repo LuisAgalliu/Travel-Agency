@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* General Header Styling */
+header {
+    background-color: #212fa8; /* Blue background */
+    color: white; /* Text color */
+    padding: 20px; /* Space around the header */
+    text-align: center;
+}
+
+/* Header Container for Logo and Text */
+.header-container {
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Center logo and text */
+    gap: 20px; /* Space between logo and text */
+}
+
+/* Logo Styling */
+.header-logo {
+    height: 120px; /* Consistent logo size */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Header Text Styling */
+.header-text h1 {
+    margin: 0;
+    font-size: 2rem; /* Adjust font size */
+}
+
+.header-text p {
+    margin: 5px 0 0;
+    font-size: 1rem; /* Adjust subtitle size */
+}
+
+/* Navigation Styling */
+header nav {
+    margin-top: 10px; /* Space between navigation and header content */
+}
+
+    header nav a {
+        color: white; /* Link color */
+        text-decoration: none; /* Remove underline */
+        padding: 10px 15px; /* Add spacing around links */
+        border-radius: 5px; /* Rounded corners for buttons */
+        transition: background-color 0.3s ease; /* Smooth hover effect */
+    }
+
+        header nav a:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+            color: white; /* Keep text white on hover */
+        }
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Parent container for paketat */
+.paketat-grid {
+    display: flex; /* Enables horizontal layout */
+    flex-wrap: wrap; /* Allows paketat to wrap to the next row on smaller screens */
+    gap: 20px; /* Adds spacing between paketat */
+    justify-content: space-around; /* Distributes space evenly around paketat */
+    margin-top: 20px;
+}
+
+/* Individual paketa card */
+.paketa {
+    flex: 1 1 calc(30% - 20px); /* Makes each paketa take ~30% of the width, accounting for gap */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center; /* Centers text content */
+    max-width: 300px; /* Prevents paketat from becoming too wide */
+    background-color: #fff; /* White background for clarity */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+    /* Hover effect for paketa */
+    .paketa:hover {
+        transform: translateY(-5px); /* Lifts the card slightly on hover */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+    }
+
+    /* Paketa image styling */
+    .paketa img {
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    /* Paketa title */
+    .paketa h3 {
+        margin: 10px 0;
+        font-size: 1.2rem;
+        color: #333; /* Darker color for better readability */
+    }
+
+    /* Paketa details */
+    .paketa p {
+        margin: 5px 0;
+        font-size: 0.9rem;
+        color: #666; /* Slightly lighter color for description */
+    }
+
+/* Button styling */
+.btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 500px; /* Adjust the height as needed */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5); /* Adds a transparent black overlay */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    .hero-text p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-text .btn {
+        background-color: #007BFF;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+
+        .hero-text .btn:hover {
+            background-color: #0056b3;
+        }
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* About Section */
+.about-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
