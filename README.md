@@ -1,4 +1,4 @@
-# Agjensi Udhëtimi - ASP.NET Web Forms
+# Travel Agency - ASP.NET Web Forms
 
 A web application for managing a travel agency, developed with **ASP.NET Web Forms**, **C#**, **Bootstrap**, **jQuery**, and **SQL Server**. The project provides a user-facing interface for viewing travel packages and making reservations, together with an admin area for managing packages, users, and bookings.
 
